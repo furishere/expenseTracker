@@ -1,16 +1,74 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Expense Tracker built with React.js where users can add expenses, delete expenses, and preview their total money in different currencies.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 Live Website: https://expense-trackerrue16.vercel.app/
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 GitHub: https://github.com/furishere/expenseTracker
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Add expenses
+- Delete expenses
+- Expense summary panel
+- Currency conversion preview
+- Responsive UI
+- Clean and simple interface
+
+---
+
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+- ExchangeRate API
+
+---
+
+## What I Learned
+
+While building this project, one of the biggest problems I faced was creating the Summary Panel because I had never worked with calculations like total expenses before.
+
+Because of that challenge, I learned about `reduce()` in JavaScript and how reducers work in React projects. It was a really great learning experience because I finally understood how to calculate totals from arrays and manage data more efficiently.
+
+I also learned:
+- State management with React Hooks
+- Handling forms in React
+- Passing props between components
+- Working with APIs
+- Responsive design using Tailwind CSS
+
+---
+
+## API Used
+
+This project uses the ExchangeRate API for currency conversion and preview.
+
+---
+
+## Installation
+
+# Clone the repository
+```bash
+git clone https://github.com/furishere/expenseTracker.git
+```
+
+# Navigate into the project directory
+```bash
+cd expenseTracker
+```
+
+# Install all dependencies
+```bash
+npm install
+```
+# Start the development server
+```bash
+npm run dev
+```

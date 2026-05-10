@@ -29,7 +29,7 @@ export default function AddExpense() {
         <div className="min-h-screen bg-white flex justify-center px-4">
             <div className="w-full max-w-md">
                 <div className="border border-gray-200 shadow-sm rounded-xl mt-6 p-6">
-                    <h1 className="text-3xl font-hero italic text-center">
+                    <h1 className="text-2xl font-display text-center">
                         Add Expense
                     </h1>
                     <form onSubmit={handleSubmit} className="mt-6 space-y-5">

@@ -18,7 +18,7 @@ export default function SummaryPanel({expenses}){
     }, {})
 
     return <div className="border border-gray-200 mt-8 rounded-md">
-    <div className="text-3xl font-hero italic text-center mt-4">
+    <div className="text-2xl font-display text-center mt-4">
        Summary Panel
     </div>
         <div className="items-center border border-gray-200 rounded-md m-2 bg-[#111111] ">

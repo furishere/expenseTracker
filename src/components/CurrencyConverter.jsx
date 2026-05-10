@@ -22,7 +22,7 @@ export default function CurrencyConverter({ expenses }) {
 
     return (
         <div className="border border-gray-200 mt-8 rounded-md text-center">
-    <div className="text-3xl font-hero italic text-center mt-4">
+    <div className="text-2xl font-display  text-center mt-4">
        Currency Preview
     </div>
     <div className="mt-4">

@@ -3,7 +3,7 @@ import { useState } from "react"
 export default function Expense({expenses, setExpense}){
     const [empty, setEmpty] = useState()
     return <div className="border border-gray-200 mt-8 rounded-md text-center">
-    <div className="text-3xl font-hero italic text-center mt-4">
+    <div className="text-2xl font-display text-center mt-4">
        Expense
     </div>
     <div className="mt-2">
